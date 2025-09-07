@@ -1,0 +1,16 @@
+# 根目录 .env
+NODE_ENV=development
+
+# Backend配置
+BACKEND_PORT=3001
+API_BASE_URL=http://localhost:3001
+
+# Frontend配置
+FRONTEND_PORT=3000
+NEXT_PUBLIC_API_URL=http://localhost:3001
+
+# 数据库配置（如果使用Prisma）
+# DATABASE_URL="postgresql://username:password@localhost:5432/twitter_posts"
+
+# JWT密钥（如果使用认证）
+# JWT_SECRET=your-super-secret-jwt-key
