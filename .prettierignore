@@ -1,0 +1,19 @@
+# 构建产物
+dist
+build
+.next
+out
+coverage
+
+# 依赖和锁文件
+node_modules
+**/node_modules
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# 变更日志
+CHANGELOG*.md
+
+# 其他
+.turbo
